@@ -56,7 +56,6 @@ body{
 button{
     cursor: pointer;
     font-size: 1.2rem;
-    height: 2.5rem;
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -66,12 +65,10 @@ button{
     box-shadow: 0 0 .3rem rgba(121, 121,  121, 0.65);
     transition:all .2s;
 }
-button:first-child{
-    height: 44px ;
-}
+
 
 button:hover{
-    filter: brightness(130%);
+    background-color:black ;
 }
 
 
@@ -85,12 +82,10 @@ button:active{
 }
 
 .fa-twitter{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     
 }
-.twitter-button{
-    height: 44px;
-}
+
 
 /* loader */
 .loader {
@@ -118,8 +113,8 @@ button:active{
     }
     .quote-container {
         margin: auto; /* Centrar el contenedor en la pantalla */
-        padding: 10px; /* Reducir el espacio alrededor del contenedor */
-        max-width: 90%; /* Utilizar el ancho máximo de la pantalla */
+        padding: 15px; /* Reducir el espacio alrededor del contenedor */
+        max-width: 95%; /* Utilizar el ancho máximo de la pantalla */
     }
 
     .quote-text {
@@ -143,15 +138,8 @@ button:active{
     button {
         width: 100%; /* Los botones ocupan todo el ancho disponible */
         margin-bottom: 10px; /* Agregar espacio entre los botones */
-        height: 3rem; /* Aumentar la altura de los botones */
-        font-size: 1.2rem; /* Ajustar el tamaño de fuente de los botones */
+        font-size: 1.1rem; /* Ajustar el tamaño de fuente de los botones */
+       
     }
 
-    .twitter-button {
-        height: 2.8rem; /* Ajustar la altura del botón de Twitter */
-    }
-    
-    .fa-twitter {
-        font-size: 1.4rem; /* Ajustar el tamaño del icono de Twitter */
-    }
 }
