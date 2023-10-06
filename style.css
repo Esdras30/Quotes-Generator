@@ -108,9 +108,6 @@ button:active{
 
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 768px) {
-    body{
-        min-height: 95vh;
-    }
     .quote-container {
         padding: 15px; /* Reducir el espacio alrededor del contenedor */
         max-width: 95%; /* Utilizar el ancho máximo de la pantalla */
