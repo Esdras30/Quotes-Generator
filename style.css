@@ -109,10 +109,9 @@ button:active{
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 768px) {
     body {
-        max-height: initial; /* Restaurar el valor predeterminado para permitir el desplazamiento en dispositivos móviles */
+        width: initial; /* Restaurar el valor predeterminado para permitir el desplazamiento en dispositivos móviles */
     }
     .quote-container {
-        margin: 20px; /* Centrar el contenedor en la pantalla */
         padding: 15px; /* Reducir el espacio alrededor del contenedor */
         max-width: 95%; /* Utilizar el ancho máximo de la pantalla */
     }
@@ -139,7 +138,11 @@ button:active{
         width: 100%; /* Los botones ocupan todo el ancho disponible */
         margin-bottom: 10px; /* Agregar espacio entre los botones */
         font-size: 1.1rem; /* Ajustar el tamaño de fuente de los botones */
-       
+
+    }
+
+    button:first-child{
+        padding: 0.6rem 1.8rem;   
     }
 
 }
